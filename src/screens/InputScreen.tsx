@@ -64,10 +64,10 @@ export default function InputScreen({ onSubmit, onBack }: InputScreenProps) {
 
   return (
     <div className="mx-auto min-h-screen w-full max-w-md px-5 pt-14 pb-32">
-      <header className="mb-6 flex items-center gap-3">
+      <header className="sticky top-0 z-10 -mx-5 mb-4 flex items-center gap-3 bg-forest-950/80 px-5 py-3 backdrop-blur-md">
         <button
           onClick={onBack}
-          className="flex size-9 items-center justify-center rounded-full bg-white/10 text-white/70 hover:bg-white/20"
+          className="flex size-9 shrink-0 items-center justify-center rounded-full bg-white/10 text-white/70 hover:bg-white/20"
           aria-label="Kembali"
         >
           ←
