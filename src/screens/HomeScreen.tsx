@@ -50,8 +50,7 @@ export default function HomeScreen({ transactions, onInput, onViewAll }: HomeScr
 
   return (
     <div className="mx-auto min-h-screen w-full max-w-md px-5 pt-14 pb-32">
-      {/* header */}
-      <header className="mb-6 flex items-center justify-between">
+      <header className="sticky top-0 z-10 -mx-5 mb-4 flex items-center justify-between bg-forest-950/80 px-5 py-3 backdrop-blur-md">
         <div>
           <p className="text-sm text-white/50">Selamat datang</p>
           <h1 className="text-xl font-bold text-white">Halo, Hanafi 👋</h1>
